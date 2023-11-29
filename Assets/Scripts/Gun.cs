@@ -12,7 +12,7 @@ public class Gun : MonoBehaviour
     public AudioClip gunShotClip;
     public AudioClip bulletDropClip;
     public AudioSource audioSource;
-    public VisualEffect muzzleFlashEffect;
+    public ParticleSystem muzzleFlashEffect;
 
     private float nextTimeToFire = 0f;
 
